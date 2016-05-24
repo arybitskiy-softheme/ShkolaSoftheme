@@ -8,7 +8,7 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string name = "Alexander Rybitskiy";
             Console.ForegroundColor = ConsoleColor.Yellow;
