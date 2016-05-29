@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "age_console", "age_console\age_console.csproj", "{6CD79C47-8A27-4429-9D2F-0ED38200DDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "age_Wpf", "age_Wpf\age_Wpf.csproj", "{6ACDFA8F-F46B-4D06-9A3F-98419C63F028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD79C47-8A27-4429-9D2F-0ED38200DDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD79C47-8A27-4429-9D2F-0ED38200DDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD79C47-8A27-4429-9D2F-0ED38200DDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD79C47-8A27-4429-9D2F-0ED38200DDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACDFA8F-F46B-4D06-9A3F-98419C63F028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACDFA8F-F46B-4D06-9A3F-98419C63F028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACDFA8F-F46B-4D06-9A3F-98419C63F028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACDFA8F-F46B-4D06-9A3F-98419C63F028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

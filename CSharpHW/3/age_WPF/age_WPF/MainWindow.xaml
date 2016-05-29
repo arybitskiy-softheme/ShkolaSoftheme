@@ -1,0 +1,19 @@
+﻿<Window x:Class="age_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:age_WPF"
+        mc:Ignorable="d"
+        Title="Zodiac" Height="163.692" Width="422.692">
+    <Grid>
+        <Button x:Name="button" Content="Show result" HorizontalAlignment="Left" Margin="331,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="button_Click"/>
+        <Label x:Name="label" Content="Your age:" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Type your date of birth" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="306"/>
+        <Label x:Name="label_Copy" Content="Your zodiac:" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="27" Margin="126,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="26" Margin="126,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="74" Margin="331,49,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
