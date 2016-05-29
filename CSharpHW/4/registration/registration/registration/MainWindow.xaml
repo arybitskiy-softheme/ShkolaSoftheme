@@ -1,0 +1,27 @@
+﻿<Window x:Class="registration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:registration"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="327.385" Width="404.384">
+    <Grid>
+        <Button x:Name="button" Content="Register" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.501,-1.618" Click="button_Click"/>
+        <TextBox x:Name="textBoxFirstName" HorizontalAlignment="Left" Height="26" Margin="118,10,0,0" TextWrapping="Wrap" Text="Type your first name" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label" Content="First name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxLastName" HorizontalAlignment="Left" Height="26" Margin="118,41,0,0" TextWrapping="Wrap" Text="Type your last name" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label_Copy" Content="Last name" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxBirth" HorizontalAlignment="Left" Height="26" Margin="118,72,0,0" TextWrapping="Wrap" Text="Type your birthday" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label_Copy1" Content="Birth date" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxGender" HorizontalAlignment="Left" Height="26" Margin="118,104,0,0" TextWrapping="Wrap" Text="Type your gender" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label_Copy2" Content="Gender" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Height="26" Margin="118,135,0,0" TextWrapping="Wrap" Text="Type your email" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label_Copy3" Content="Email" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxPhone" HorizontalAlignment="Left" Height="26" Margin="118,166,0,0" TextWrapping="Wrap" Text="Type your phone number" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="label_Copy4" Content="Phone number" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="label_Copy5" Content="Additional info" HorizontalAlignment="Left" Margin="10,197,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxInfo" HorizontalAlignment="Left" Height="90" Margin="118,197,0,0" TextWrapping="Wrap" Text="Type any info here" GotFocus="TextBox_GotFocus" VerticalAlignment="Top" Width="266"/>
+
+    </Grid>
+</Window>
