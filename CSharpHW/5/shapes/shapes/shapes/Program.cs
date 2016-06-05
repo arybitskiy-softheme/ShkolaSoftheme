@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace shapes
@@ -66,6 +67,7 @@ namespace shapes
                     }
                     for (int j = 0; j < (heights - h) * 2 + 1; j++)
                     {
+                        Thread.Sleep(100);
                         Console.Write("* ");
                     }
                     Console.WriteLine();
@@ -78,6 +80,7 @@ namespace shapes
                     }
                     for (int w = h * 2 - 2; w > 1; w--)
                     {
+                        Thread.Sleep(100);
                         Console.Write("* ");
                     }
 
